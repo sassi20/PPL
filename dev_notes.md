@@ -80,11 +80,14 @@ Side note: project structure
 
 As a last step on this project, I decided to restructure and re-organize the hole project so each part would be easier to look at on its own, instead of being crammed together all in one file which, full disclosure, was exactly how I worked through the entire build before this final tidy-up. I'm leaving a small diagram showing how it ended up:
 
+
+```text
 └── src/
-    ├── main.cpp           ← main program (tests)
-    ├── tiny_ppl_core.h    ← core language declarations
-    ├── tiny_ppl_core.cpp  ← core language implementation
-    ├── parser.cpp         ← parser implementation
-    ├── primitives.cpp     ← built-in primitive operations
-    ├── machine.cpp        ← state machine implementation
-    └── inference.cpp      ← inference algorithms
+    ├── main.cpp       ← main program (tests)
+    ├── tiny_ppl_core.h ← core language declarations
+    ├── tiny_ppl_core.cpp ← core language implementation 
+    ├── parser.cpp ← parser implementation 
+    ├── primitives.cpp ← built-in primitive operations 
+    ├── machine.cpp ← state machine implementation 
+    └── inference.cpp ← inference algorithms
+``` 
