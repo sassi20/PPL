@@ -60,4 +60,4 @@ When you run `./main`, you should see tests for:
 * Closures and lexical scope
 * Recursion, via the `geom` geometric-distribution model
 
-Feel free to check out the **[Developing Notes](dev_notes.md)**where I go into a bit more detail about how I approached this project — what each part does, how it ended up organized, and some of the more interesting bumps I ran into along the way and how I aproached them.
+Feel free to check out the [Developing Notes](dev_notes.md) where I go into a detail about how I approached this project — what each part does, how it ended up organized, and some of the more interesting bumps I ran into along the way and how I aproached them.
