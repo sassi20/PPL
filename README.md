@@ -11,7 +11,7 @@ A C++ reimplementation of a miniature probabilistic programming language (mini-P
 From the project's root directory:
 
 ```bash
-g++ -std=c++17 -Wall -Wextra \ src/tiny_ppl_core.cpp \ src/parser.cpp \ src/primitives.cpp \ src/inference.cpp \ src/machine.cpp \ src/main.cpp \ -o main
+g++ -std=c++17 -Wall -Wextra -o main src/tiny_ppl_core.cpp src/parser.cpp src/primitives.cpp src/inference.cpp  src/machine.cpp src/main.cpp
 ./main
 ```
 
@@ -47,6 +47,8 @@ mariappl/
     ├── primitives.cpp ← built-in primitive operations 
     ├── machine.cpp ← state machine implementation 
     └── inference.cpp ← inference algorithms
+``` 
+
 
 ## Expected Output
 
