@@ -54,9 +54,10 @@ mariappl/
 
 When you run `./main`, you should see tests for:
 
-* Normal and Bernoulli distributions (`log_prob`)
-* Sampling with a fixed random seed
-* `MachineState` initialization
+* The `conj` conjugate model using single-site Metropolis-Hastings, checked against the exact posterior
+* The `bits` model (sum of 8 fair coins), also with single-site MH, checked against the exact expected value
+* The same `conj` model run through all three controllers side by side — Likelihood Weighting, SMC, and single-site MH
+* Closures and lexical scope
+* Recursion, via the `geom` geometric-distribution model
 
-
-Feel free to check out the Developing Notes (dev_notes.md) where I go into a bit more detail about how I approached this project — what each part does, how it ended up organized, and some of the more interesting bumps I ran into along the way and how I aproached them.
+Feel free to check out the **[Developing Notes](dev_notes.md)**where I go into a bit more detail about how I approached this project — what each part does, how it ended up organized, and some of the more interesting bumps I ran into along the way and how I aproached them.
