@@ -95,12 +95,5 @@ int main() {
     }
     std::cout << "geom mean = " << (ksum / trials) << "   (esperado (1-p)/p = 2.333)" << std::endl;
 
-
-
-
-
-
-
-
     return 0;
 }

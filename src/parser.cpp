@@ -1,7 +1,7 @@
 #include "tiny_ppl_core.h"
-#include <cctype>     // para std::isspace
-#include <cstdlib>    // para std::strtod
-#include <stdexcept>  // para std::runtime_error
+#include <cctype>     // std::isspace
+#include <cstdlib>    // std::strtod
+#include <stdexcept>  // std::runtime_error
  
 
 std::vector<std::string> tokenize(const std::string& program) {
