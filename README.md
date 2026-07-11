@@ -40,13 +40,13 @@ mariappl/
 ├── dev_notes.md       ← development notes for the project
 ├── Makefile           ← Make build file
 └── src/
-    ├── main.cpp       ← main program (tests)
-    ├── tiny_ppl_core.h ← core language declarations
-    ├── tiny_ppl_core.cpp ← core language implementation 
-    ├── parser.cpp ← parser implementation 
-    ├── primitives.cpp ← built-in primitive operations 
-    ├── machine.cpp ← state machine implementation 
-    └── inference.cpp ← inference algorithms
+    ├── main.cpp             ← main program (tests)
+    ├── tiny_ppl_core.h      ← core language declarations
+    ├── tiny_ppl_core.cpp    ← core language implementation 
+    ├── parser.cpp           ← parser implementation 
+    ├── primitives.cpp       ← built-in primitive operations 
+    ├── machine.cpp          ← state machine implementation 
+    └── inference.cpp        ← inference algorithms
 ``` 
 
 

@@ -83,11 +83,11 @@ As a last step on this project, I decided to restructure and re-organize the hol
 
 ```text
 └── src/
-    ├── main.cpp       ← main program (tests)
-    ├── tiny_ppl_core.h ← core language declarations
-    ├── tiny_ppl_core.cpp ← core language implementation 
-    ├── parser.cpp ← parser implementation 
-    ├── primitives.cpp ← built-in primitive operations 
-    ├── machine.cpp ← state machine implementation 
-    └── inference.cpp ← inference algorithms
+    ├── main.cpp           ← main program (tests)
+    ├── tiny_ppl_core.h    ← core language declarations
+    ├── tiny_ppl_core.cpp  ← core language implementation 
+    ├── parser.cpp         ← parser implementation 
+    ├── primitives.cpp     ← built-in primitive operations 
+    ├── machine.cpp        ← state machine implementation 
+    └── inference.cpp      ← inference algorithms
 ``` 
